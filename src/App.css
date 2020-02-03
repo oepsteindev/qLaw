@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  color: #cccccc;
+  overflow-y: auto;
+  
 }
 
 .App-logo {
@@ -43,3 +46,61 @@
   color: #7ebc59;
   font-weight: bold;
 }
+
+.black_bg {
+    background-color: #000;
+}
+
+
+/* menu */
+.left-align {
+    text-align: left;
+}
+
+.left-align-menu {
+    text-align: left;
+    text-indent: 5.5em;
+}
+
+.indent {
+    text-indent: 5.5em;
+}
+
+.footerText {
+    font-size: 10px;
+}
+
+#menu-outer {
+	height: 84px;
+	/* background: url(images/bar-bg.jpg) repeat-x; */
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+        display: inline;
+        margin: 5px;
+        font-size: 16px;
+    }
+    
+    ul#horizontal-list a {
+        color: grey;
+    }
+
+    html, body, #app, #app>div {
+        height: 100%
+      }
