@@ -20,6 +20,7 @@ class Footer extends React.Component {
                     only. The information presented at this site should not be construed to be
                     formal legal advice or the formation of a lawyer/client relationship.
                     <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 </div>
             </div>
         );

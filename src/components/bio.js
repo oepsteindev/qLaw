@@ -4,6 +4,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import biopic from '../images/bio.jpg';
 
 class Homepage extends React.Component {
 
@@ -13,15 +14,8 @@ class Homepage extends React.Component {
             <div className="container  black_bg left-align">
                 <Container>
                     <Row>
-                        <Col><img
-                            alt="biopic"
-                            src={require('../images/bio.jpg')}
-                            style={{
-                width: 269,
-                height: 403,
-                position: 'absolute'
-            }}/></Col>
-                        <Col xs={5}>
+                        <Col> <img src={biopic} width="269" height="403" /></Col>
+                        <Col>
                             Quinton J. Sheer practices in the entertainment, business, and contract fields
                             of law and is a certified county mediator.
                             <br/><br/>

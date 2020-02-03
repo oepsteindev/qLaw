@@ -40,7 +40,7 @@ class Homepage extends React.Component {
                             - just ask.
 
                         </Col>
-                        <Col>
+                        <Col xs={2}>
                             <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Follow & Friend Us</h5>
                             <a
                                 href="https://www.facebook.com/QEntertainmentLaw/"
