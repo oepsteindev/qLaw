@@ -2,6 +2,7 @@
   text-align: center;
   color: #cccccc;
   overflow-y: auto;
+  height: 100vh;
   
 }
 
@@ -49,6 +50,7 @@
 
 .black_bg {
     background-color: #000;
+
 }
 
 
