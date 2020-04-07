@@ -22,8 +22,7 @@ class Menu extends React.Component {
                 <div className=" left-align">
 
                 <BrowserRouter>
-                                
-                                    <nav>
+                                     <nav>
                                         <div id="menu-outer">
                                             <div id="table">
                                                 <ul id="horizontal-list" className="left-align-menu">
