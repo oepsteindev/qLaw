@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import biopic from '../images/bio.jpg';
+
 
 class Homepage extends React.Component {
 
@@ -12,9 +12,12 @@ class Homepage extends React.Component {
         return (
 
             <div className="container  black_bg left-align">
+            
                 <Container>
                     <Row>
-                        <Col xs={12} md={6}> <img src={biopic}  height="409" width="253"/></Col>
+                        <Col xs={12} md={5}>
+                            <img src={require('../images/bio.jpg')} alt="header"/>
+                        </Col>
                         <Col xs={6} md={6}>
                             Quinton J. Sheer practices in the entertainment, business, and contract fields
                             of law and is a certified county mediator.
@@ -38,7 +41,7 @@ class Homepage extends React.Component {
                         
                     </Row>
                     <Row>
-                        <Col xs={6} md={6}>
+                        <Col xs={6} md={12}>
                             <br/><br/>
                             Quinton made Orlando, FL his home in 1999. He has worked for two major area
                             theme parks as both a performer/narrator and in management. The former voice of
