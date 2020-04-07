@@ -40,6 +40,18 @@
   }
 }
 
+.banner{
+    height: 200px;
+    background-image: url("./images/QLawBanner2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+
 .follow {
     font-size: 18px;
     display:block;
@@ -93,3 +105,15 @@ ul#horizontal-list {
           background-color: #000;
       
       }
+
+
+      @media only screen and (max-width: 320px) {
+        .banner {
+         height: 200px;
+         background-image: url("./images/QsmallBanner.jpg");
+         background-repeat: no-repeat;
+         background-position: center;
+         position: relative;
+    
+        }
+     }
