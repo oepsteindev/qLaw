@@ -9,11 +9,11 @@ class Homepage extends React.Component {
 
     render() {
         return (
-
             <div className="container  black_bg left-align">
                 <Container>
+                    
                     <Row>
-                        <Col xs={10}>
+                        <Col xs={8}>
                             Q Entertainment Law is dedicated to proving legal solutions and strategies for
                             athletes and entertainers at all levels of their careers. Attorney/owner,
                             Quinton Sheer has over two decades of experience in the entertainment industry
@@ -40,8 +40,8 @@ class Homepage extends React.Component {
                             - just ask.
 
                         </Col>
-                        <Col xs={2}>
-                            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Follow & Friend Us</h5>
+                        <Col xs={4}>
+                            <span className="follow">Follow & Friend Us</span>
                             <a
                                 href="https://www.facebook.com/QEntertainmentLaw/"
                                 target="_blank"
@@ -57,7 +57,8 @@ class Homepage extends React.Component {
                     </Row>
 
                 </Container>
-            </div>
+                </div>
+              
         );
     }
 }
