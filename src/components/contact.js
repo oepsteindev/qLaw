@@ -6,7 +6,7 @@ import  Container  from "react-bootstrap/Container";
 import  Row  from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import  axios  from "axios";
-const API_PATH = "/sendmail.php";
+const API_PATH = "/sendmail.php"; 
 
 class Homepage extends React.Component {
     
