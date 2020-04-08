@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-            <div className="App black_bg container">
+            <div className="App black_bg container-fluid">
                 <div className="banner" expand="md"></div>
                 <Menu/>
                 <Footer/>

@@ -9,7 +9,7 @@ class Homepage extends React.Component {
 
     render() {
         return (
-            <div className="container  black_bg left-align">
+            <div className="container black_bg left-align">
                 <Container>
                     
                     <Row>
