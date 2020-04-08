@@ -2,7 +2,8 @@
     /* text-align: center; */
     color: #cccccc;
     overflow-y: auto;
-    height: 100vh;   
+    height: 100vh;  
+     
 }
 
 .App-logo {
@@ -59,17 +60,18 @@
 
 
 /* menu */
-/* .left-align {
+.left-align {
     text-align: left;
 }
-
+/* 
 .left-align-menu {
     text-align: left;
     text-indent: 5.5em;
 } */
 
 ul#horizontal-list {
-	/* min-width: 696px; */
+    /* min-width: 696px; */
+    margin-left: -15px;
 	list-style: none;
 	padding-top: 20px;
 	}
@@ -107,7 +109,7 @@ ul#horizontal-list {
       }
 
 
-      @media only screen and (max-width: 320px) {
+      @media only screen and (max-width: 326px) {
         .banner {
          height: 200px;
          background-image: url("./images/QsmallBanner.jpg");
@@ -117,3 +119,9 @@ ul#horizontal-list {
     
         }
      }
+
+     .container {
+         margin-right: auto;
+     }
+
+     

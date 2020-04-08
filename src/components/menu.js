@@ -16,15 +16,16 @@ class Menu extends React.Component {
 
     render() {
         return (
-            <div>
-                <div className="row">
+           
+               
                 
-                <div className=" left-align">
+            <div className="container black_bg left-align">
 
                 <BrowserRouter>
+                    <header >
                                      <nav>
-                                        <div id="menu-outer">
-                                            <div id="table">
+                                        <div id="menu-outer" >
+                                            <div id="table" >
                                                 <ul id="horizontal-list" className="left-align-menu">
                                                     <li>
                                                         <Link
@@ -78,7 +79,7 @@ class Menu extends React.Component {
                                             </div>
                                         </div>
                                     </nav>
-                             
+                             </header>
                                 <Switch>
                                     <Route path="/qlawbuild" exact component={Homepage}/>
                                     <Route path="http://www.oepstein.a2hosted.com/" exact component={Homepage}/>
@@ -92,11 +93,10 @@ class Menu extends React.Component {
                                     <Route path="/contact" exact component={Contact}/>
                                 </Switch>
                             </BrowserRouter>
-                        </div>
-                    </div>
-                
+                      
+                </div>
                
-            </div>
+            
         );
     }
 }
