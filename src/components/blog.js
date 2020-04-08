@@ -13,7 +13,7 @@ class Links extends React.Component {
             <div className="container  black_bg left-align">
                 <Container>
                     <Row>
-                        <Col xs={10}>
+                        <Col xs={12}>
                             <a href="http://musicesquire.blogspot.com/" target="_blank" rel="noopener noreferrer"><img
                                 alt="blog"
                                 src={require('../images/blog.png')}
@@ -26,7 +26,7 @@ class Links extends React.Component {
                     </Row>
 
                     <Row>
-                        <Col xs={10}>
+                        <Col xs={12}>
                             <br/><br/>
                             At Q Entertainment Law, L.L.C. we pride ourselves on keeping up to date with the
                             latest issues concerning those in the entertainment and sports fields. This blog
