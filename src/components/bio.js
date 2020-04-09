@@ -18,7 +18,7 @@ class Homepage extends React.Component {
                         <Col xs={12} md={5}>
                             <img src={require('../images/bio.jpg')} alt="header"/>
                         </Col>
-                        <Col xs={6} md={6}>
+                        <Col xs={12} md={6}>
                             Quinton J. Sheer practices in the entertainment, business, and contract fields
                             of law and is a certified county mediator.
                             <br/><br/>
@@ -41,7 +41,7 @@ class Homepage extends React.Component {
                         
                     </Row>
                     <Row>
-                        <Col xs={6} md={12}>
+                        <Col xs={12} md={12}>
                             <br/><br/>
                             Quinton made Orlando, FL his home in 1999. He has worked for two major area
                             theme parks as both a performer/narrator and in management. The former voice of
