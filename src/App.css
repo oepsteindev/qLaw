@@ -124,4 +124,67 @@ ul#horizontal-list {
          margin-right: auto;
      }
 
+
+     
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .banner {
+        height: 200px;
+        background-image: url("./images/QsmallBanner.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        content: "Joe's Task:";
+   
+       }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    .banner {
+        height: 200px;
+        background-image: url("./images/QsmallBanner.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+   
+       }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+    .banner {
+        height: 200px;
+        background-image: url("./images/QsmallBanner.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+   
+       }
+}
+
+@media only screen 
+and (max-device-width: 830px) 
+ { 
+    .banner {
+        height: 200px;
+        background-image: url("./images/QsmallBanner.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+   
+       }
+}
+
      
